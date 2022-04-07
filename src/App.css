@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #3f3e6d;
+  font-family: 'Nunito', sans-serif;;
 }
 body::-webkit-scrollbar-track{ 
   background:#e0cffa; 
