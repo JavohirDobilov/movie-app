@@ -14,7 +14,7 @@ body::-webkit-scrollbar-track{
 } 
 
 body::-webkit-scrollbar{ 
-  width: 10px; 
+  width: 8px; 
   
   padding: 0 1px; 
   background-color: #c2f5d6; 
