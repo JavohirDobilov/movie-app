@@ -13,8 +13,14 @@
 }
 
 .movie-content-box {
-    width: 20%;
-    padding: 20px;
+    width: 25%;
+   
     display: flex;
     justify-content: center;
+}
+
+.movie-content-box-item{
+    width: 240px;
+    padding: 20px;
+    margin: 0 40px;
 }

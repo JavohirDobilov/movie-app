@@ -63,7 +63,9 @@ const Dashboard = () => {
         <motion.div layout className='dashboard-right'>
           {filtered.map(item => (
             <div className='movie-content-box' key={item.id}>
-              <MovieItem item={item} />
+             <div className='movie-content-box-item'>
+             <MovieItem item={item} />
+             </div>
             </div>
           ))}
 
