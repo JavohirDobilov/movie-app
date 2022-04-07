@@ -1,9 +1,9 @@
 
 .dashboard{
-   
+   padding: 0 40px;
 }
 .dashboard-filter{
-    padding-left: 30px;
+   
 }
 
 .dashboard-right{
@@ -14,13 +14,12 @@
 
 .movie-content-box {
     width: 25%;
-   
     display: flex;
     justify-content: center;
 }
 
 .movie-content-box-item{
-    width: 240px;
+    
     padding: 20px;
     margin: 0 40px;
 }
