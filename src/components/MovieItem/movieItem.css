@@ -7,14 +7,14 @@
 
 .movie-container img{
     width: 240px;
-    height: 200;
     object-fit: contain;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .movie-lan-title{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 .movie-title{
     font-size: 16px;

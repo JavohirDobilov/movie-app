@@ -1,6 +1,6 @@
 
 .dashboard{
-   padding: 0 40px;
+   margin: 30px;
 }
 .dashboard-filter{
    
@@ -11,6 +11,10 @@
     flex-wrap: wrap;
     width: 100%;
 }
+.dashboard-content{
+    flex-direction: column;
+    margin: 40px;
+}
 
 .movie-content-box {
     width: 25%;
@@ -19,7 +23,6 @@
 }
 
 .movie-content-box-item{
-    
     padding: 20px;
     margin: 0 40px;
 }
