@@ -25,7 +25,7 @@ const Dashboard = () => {
 
 
   const fetchPopular = async () => {
-    const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=bd71804e6fd6a9d30880a89b0bfe4db8&language=en-US&page=1`);
+    const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=bd71804e6fd6a9d30880a89b0bfe4db8&language=en-US&page=13`);
     const movies = await data.json();
     console.log(movies)
     setPopular(movies.results);

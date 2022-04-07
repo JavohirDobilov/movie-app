@@ -21,6 +21,10 @@ body::-webkit-scrollbar-thumb{
   border-radius: 10px;
 }
 
+.pages{
+  padding: 30px;
+}
+
 
 
 
