@@ -1,0 +1,36 @@
+.movie{
+    border-radius: 10px;
+    background-color: #211f41;
+}
+
+
+.movie-container img{
+    width: 240px;
+    height: 200;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.movie-lan-title{
+    display: flex;
+    justify-content: space-around;
+}
+.movie-title{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.movie-lan{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.movie-view{
+    display: flex;
+}
+.movie-see img{
+    width: 20px;
+}
+.movie-view-rem{
+    color:white
+}
